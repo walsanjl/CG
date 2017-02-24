@@ -88,10 +88,10 @@ void DrawLine(int x0, int y0, int x1, int y1, tCor cor0, tCor cor1 ) {
             } else {     //a esccolha anterior foi Leste
                 d_new = d_old+alpha;
             }
-            if(d_new > 0) { //a esccolha atual serah Nordeste (NOROESTE)
+            if(d_new > 0) { //a esccolha atual serah Sudoeste
                 x_aux--;
                 y_aux--;
-            } else {        //a esccolha atual serah Leste (OESTE)
+            } else {        //a esccolha atual serah Oeste
                 x_aux--;
             }
             cor0.R+=vR;
@@ -131,7 +131,7 @@ void DrawLine(int x0, int y0, int x1, int y1, tCor cor0, tCor cor1 ) {
             if(d_new > 0) { //a esccolha atual serah Nordeste
                 x_aux++;
                 y_aux++;
-            } else {        //a esccolha atual serah Leste (SUL)
+            } else {        //a esccolha atual serah Norte
                 y_aux++;
             }
             cor0.R+=vR;
@@ -171,10 +171,10 @@ void DrawLine(int x0, int y0, int x1, int y1, tCor cor0, tCor cor1 ) {
             } else {     //a esccolha anterior foi Leste
                 d_new = d_old+alpha;
             }
-            if(d_new > 0) { //a esccolha atual serah Nordeste (NOROESTE)
+            if(d_new > 0) { //a esccolha atual serah Sudoeste
                 x_aux--;
                 y_aux--;
-            } else {        //a esccolha atual serah Leste (NORTE)
+            } else {        //a esccolha atual serah Sul
                 y_aux--;
             }
             cor0.R+=vR;
@@ -208,7 +208,7 @@ void DrawLine(int x0, int y0, int x1, int y1, tCor cor0, tCor cor1 ) {
             } else {     //a esccolha anterior foi Leste
                 d_new = d_old+alpha;
             }
-            if(d_new > 0) { //a esccolha atual serah Nordeste (SUDESTE)
+            if(d_new > 0) { //a esccolha atual serah Sudeste
                 x_aux++;
                 y_aux--;
             } else {        //a esccolha atual serah Leste
@@ -245,10 +245,10 @@ void DrawLine(int x0, int y0, int x1, int y1, tCor cor0, tCor cor1 ) {
             } else {     //a esccolha anterior foi Leste
                 d_new = d_old+alpha;
             }
-            if(d_new > 0) { //a esccolha atual serah Nordeste (NOROESTE)
+            if(d_new > 0) { //a esccolha atual serah Noroeste
                 x_aux--;
                 y_aux++;
-            } else {        //a esccolha atual serah Leste (OESTE)
+            } else {        //a esccolha atual serah Oeste
                 x_aux--;
             }
             cor0.R+=vR;
@@ -287,10 +287,10 @@ void DrawLine(int x0, int y0, int x1, int y1, tCor cor0, tCor cor1 ) {
             } else {     //a esccolha anterior foi Leste
                 d_new = d_old+alpha;
             }
-            if(d_new > 0) { //a esccolha atual serah Nordeste (SUDESTE)
+            if(d_new > 0) { //a esccolha atual serah Sudeste
                 x_aux++;
                 y_aux--;
-            } else {        //a esccolha atual serah Leste (SUL)
+            } else {        //a esccolha atual serah Sul
                 y_aux--;
             }
             cor0.R+=vR;
@@ -329,10 +329,10 @@ void DrawLine(int x0, int y0, int x1, int y1, tCor cor0, tCor cor1 ) {
             } else {     //a esccolha anterior foi Leste
                 d_new = d_old+alpha;
             }
-            if(d_new > 0) { //a esccolha atual serah Nordeste (NOROESTE)
+            if(d_new > 0) { //a esccolha atual serah Noroeste
                 x_aux--;
                 y_aux++;
-            } else {        //a esccolha atual serah Leste (NORTE)
+            } else {        //a esccolha atual serah Norte
                 y_aux++;
             }
             cor0.R+=vR;

@@ -6,11 +6,28 @@ void MyGlDraw(void)
 	//*************************************************************************
 	// Chame aqui as funções do mygl.h
 	//*************************************************************************
+
     /*
 	//  1 configuracao
 	tPixel pixel_1 = {0,0,{255,0,0,0}};     //vermelho
     tPixel pixel_2 = {512,255,{0,0,255,0}}; //azul
     DrawLine(pixel_1.x,pixel_1.y,pixel_2.x,pixel_2.y, pixel_1.cor,pixel_2.cor);
+
+    tPixel pixel_11 = {0,0,{255,0,0,0}};     //vermelho
+    tPixel pixel_21 = {512,128,{0,0,255,0}}; //azul
+    DrawLine(pixel_11.x,pixel_11.y,pixel_21.x,pixel_21.y, pixel_11.cor,pixel_21.cor);
+
+    tPixel pixel_12 = {0,0,{255,0,0,0}};     //vermelho
+    tPixel pixel_22 = {512,64,{0,0,255,0}}; //azul
+    DrawLine(pixel_12.x,pixel_12.y,pixel_22.x,pixel_22.y, pixel_12.cor,pixel_22.cor);
+
+    tPixel pixel_13 = {0,0,{255,0,0,0}};     //vermelho
+    tPixel pixel_23 = {512,192,{0,0,255,0}}; //azul
+    DrawLine(pixel_13.x,pixel_13.y,pixel_23.x,pixel_23.y, pixel_13.cor,pixel_23.cor);
+
+    tPixel pixel_14 = {0,0,{255,0,0,0}};     //vermelho
+    tPixel pixel_24 = {512,12,{0,0,255,0}}; //azul
+    DrawLine(pixel_14.x,pixel_14.y,pixel_24.x,pixel_24.y, pixel_14.cor,pixel_24.cor);
 
     //  2 configuracao
 	tPixel pixel_3 = {512,128,{255,0,0,0}}; //vermelho
@@ -18,37 +35,37 @@ void MyGlDraw(void)
     DrawLine(pixel_3.x,pixel_3.y,pixel_4.x,pixel_4.y, pixel_3.cor,pixel_4.cor);
 
     //  3 configuracao
-	tPixel pixel_5 = {510,0,{255,255,255,0}};
-    tPixel pixel_6 = {512,512,{255,255,255,0}};
+	tPixel pixel_5 = {0,0,{255,0,0,0}};
+    tPixel pixel_6 = {200,500,{0,0,255,0}};
     DrawLine(pixel_5.x,pixel_5.y,pixel_6.x,pixel_6.y, pixel_5.cor,pixel_6.cor);
 
     //  4 configuracao
-	tPixel pixel_7 = {512,512,{255,255,255,0}};
-    tPixel pixel_8 = {505,0,{255,255,255,0}};
+	tPixel pixel_7 = {200,500,{255,0,0,0}};
+    tPixel pixel_8 = {0,0,{0,0,255,0}};
     DrawLine(pixel_7.x,pixel_7.y,pixel_8.x,pixel_8.y, pixel_7.cor,pixel_8.cor);
 
     //  5 configuracao
-	tPixel pixel_9 = {0,512,{255,255,255,0}};
-    tPixel pixel_10 = {512,500,{255,255,255,0}};
+	tPixel pixel_9 = {0,200,{255,0,0,0}};
+    tPixel pixel_10 = {512,0,{0,0,255,0}};
     DrawLine(pixel_9.x,pixel_9.y,pixel_10.x,pixel_10.y, pixel_9.cor,pixel_10.cor);
 
     //  6 configuracao
-	tPixel pixel_11 = {512,500,{255,255,255,0}};
-    tPixel pixel_12 = {0,512,{255,255,255,0}};
+	tPixel pixel_11 = {512,0,{255,0,0,0}};
+    tPixel pixel_12 = {0,200,{0,0,255,0}};
     DrawLine(pixel_11.x,pixel_11.y,pixel_12.x,pixel_12.y, pixel_11.cor,pixel_12.cor);
 
     //  7 configuracao
-	tPixel pixel_13 = {0,512,{255,255,255,0}};
-    tPixel pixel_14 = {510,0,{255,255,255,0}};
+	tPixel pixel_13 = {0,500,{255,0,0,0}};
+    tPixel pixel_14 = {300,0,{0,0,255,0}};
     DrawLine(pixel_13.x,pixel_13.y,pixel_14.x,pixel_14.y, pixel_13.cor,pixel_14.cor);
-
-
+    */
 
     //  8 configuracao
-	tPixel pixel_15 = {12,0,{255,255,255,0}};
-    tPixel pixel_16 = {0,512,{255,255,255,0}};
+	tPixel pixel_15 = {300,0,{255,0,0,0}};
+    tPixel pixel_16 = {0,512,{0,0,255,0}};
     DrawLine(pixel_15.x,pixel_15.y,pixel_16.x,pixel_16.y, pixel_15.cor,pixel_16.cor);
 
+    /*
     //  teste
 	tPixel pixel_17 = {512,255,{255,255,255,0}};
     tPixel pixel_18 = {0,512,{255,255,255,0}};
@@ -110,6 +127,7 @@ void MyGlDraw(void)
     DrawLine(pixel_39.x,pixel_39.y,pixel_40.x,pixel_40.y, pixel_39.cor,pixel_40.cor);
     */
 
+    /*
     // 1-6-4 configuracao
     tPixel pixel_100 = {10,10,{255,0,0,0}};    //vermelho
     tPixel pixel_101 = {200,50,{0,255,0,0}};   //verde
@@ -136,7 +154,7 @@ void MyGlDraw(void)
                  pixel_107.x, pixel_107.y,
                  pixel_108.x, pixel_108.y,
                  pixel_106.cor, pixel_107.cor, pixel_108.cor);
-
+    */
 }
 
 //-----------------------------------------------------------------------------
